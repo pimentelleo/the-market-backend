@@ -21,6 +21,7 @@
 import Route from '@ioc:Adonis/Core/Route'
 /* MY OWN ROUTES */
 import './routes/users'
+import './routes/authsession'
 
 
 Route.get('/', async () => {
