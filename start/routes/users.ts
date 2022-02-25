@@ -9,3 +9,5 @@ Route.get('/login', async () => {
 Route.post('/register/test', async ({ request }) => {
   console.log(request.url())
 });
+
+Route.get('/users/list', "UsersController.show");
